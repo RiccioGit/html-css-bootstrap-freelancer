@@ -1,0 +1,36 @@
+/* ** REGOLE GENERALI** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ** REGOLE DI DEBUG ** */
+
+[class*="col-"] {
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row {
+  height: 100px;
+  background-color: pink;
+}
+
+section {
+  margin-bottom: 40px 0;
+  background-color: blue;
+}
+
+header {
+  background-color: green;
+  /* height: 100px; */
+}
+
+footer {
+  background-color: red;
+  height: 100px;
+}
+/*  */
