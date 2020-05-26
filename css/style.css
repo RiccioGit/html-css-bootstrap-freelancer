@@ -32,5 +32,18 @@ header {
 footer {
   background-color: red;
   height: 100px;
+
 }
-/*  */
+/* **SEZIONE CONTATTI ** */
+
+/* sezione contatti */
+#contatti .form-group input,
+#contatti .form-group textarea {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  background-color: pink;
+  box-shadow: none;
+}
+#contatti .btn-default {
+  color: green;
+}
