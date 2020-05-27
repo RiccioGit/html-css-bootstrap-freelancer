@@ -16,7 +16,7 @@
 }
 
 .row {
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 section {
@@ -63,8 +63,14 @@ header .navbar-default {
   right: 0;
   left: 0;
   z-index: 999;
+  background-color: rgb(44, 62, 80);
 }
 
+/*  * Jumbotron *  */
+
+#jumbotron {
+  background-color: rgb(26, 188, 156);
+}
 
 /* **SEZIONE CONTATTI ** */
 
