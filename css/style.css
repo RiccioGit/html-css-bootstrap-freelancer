@@ -55,25 +55,27 @@ header .navbar-default {
 
   /* * Navbar * */
 
-.navbar {
+nav {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  position: fixed;
+  background-color: rgb(44, 62, 80);
+  height: 75px;
+  /* position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 999;
-  background-color: rgb(44, 62, 80);
+  z-index: 999; */
 }
 
 /*  * Jumbotron *  */
 
 #jumbotron {
   background-color: rgb(26, 188, 156);
+  margin-top: 75px;
 }
 
 .avatar {
-  width: 15rem;
+  width: 18rem;
 }
 
 /* **SEZIONE CONTATTI ** */
