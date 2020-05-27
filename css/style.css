@@ -12,7 +12,7 @@
   height: 100%;
   border: 1px solid black;
   text-align: center;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .row {
@@ -25,7 +25,7 @@ section {
 }
 
 header {
-  background-color: green;
+  /* background-color: green; */
   /* height: 100px; */
 }
 
@@ -70,6 +70,10 @@ header .navbar-default {
 
 #jumbotron {
   background-color: rgb(26, 188, 156);
+}
+
+.avatar {
+  width: 15rem;
 }
 
 /* **SEZIONE CONTATTI ** */
