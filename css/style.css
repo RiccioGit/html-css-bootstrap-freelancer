@@ -41,13 +41,22 @@ footer {
 
 /* *** HEADER *** */
 
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+header .navbar-default {
+  border: none;
+
+}
+
 header .navbar-default .navbar-nav > li > a {
-  color: green;
+  color: white;
 }
 
 header .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: blue;
+  color: rgb(0, 153, 255);
 }
 /* header .navbar-default {
   background-color: transparent;
@@ -66,14 +75,30 @@ header .nav-style {
 
 #jumbotron {
   background-color: rgb(26, 188, 156);
-  margin-top: 75px;
+  margin-top: 74px;
   padding: 80px;
-
+  color: white;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bolder;
+  font-size: 4rem;
+  line-height: 3.5rem
 }
 
 .avatar {
   width: 18rem;
 }
+
+/*  * Sezione PORTFOLIO * */
+
+main img {
+  width: 40rem;
+  border-radius: 25px;
+}
+
+#portfolio [class*="col-"] {
+  /* margin: 1px; */
+}
+
 
 /* **SEZIONE CONTATTI ** */
 
